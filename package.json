@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "author": "Alex Cumbo",
+  "author": "Will",
   "license": "UNLICENSED",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "predeploy": "npm audit",
+    "deploy": "git push"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -19,5 +21,8 @@
   },
   "devDependencies": {
     "npm-check-updates": "^3.1.7"
+  },
+  "engines": {
+    "node": "11.6.0"
   }
 }
