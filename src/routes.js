@@ -94,7 +94,6 @@ router.get('/api/reset', (req, res, next) => {
   req.app.get('cats').populate();
 
   req.app.get('dogs').populate();
-
   return res.status(200).end();
 });
 
