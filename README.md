@@ -4,9 +4,9 @@ Created by Ethan Zimmerman and William Wong
 
 [Live Demo](#)
 
-[Client Repo](#)
+[Client Repo](#)https://github.com/dc5will/DSA-Petful-Client-William
 
-[Server Repo](#)
+[Server Repo](#)https://github.com/dc5will/DSA-Petful-Server-William
 
 ## Summary
 
