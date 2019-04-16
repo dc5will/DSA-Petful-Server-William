@@ -3,7 +3,7 @@
 const express = require('express');
 const cors = require('cors');
 
-const { PORT } = require('./config');
+const { CLIENT_ORIGIN, PORT } = require('./config');
 const routes = require('./routes');
 
 const cats     = require('./cats');
@@ -22,11 +22,11 @@ app.set('cats', cats);
 app.set('dogs', dogs);
 app.set('adopters', adopters);
 
-// app.use(
-//   cors({
-//     origin: CLIENT_ORIGIN
-//   })
-// );
+app.use(
+  cors({
+    origin: CLIENT_ORIGIN
+  })
+);
 
 app.use('/', routes);
 
