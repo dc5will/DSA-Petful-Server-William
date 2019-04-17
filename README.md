@@ -4,9 +4,11 @@ Created by Ethan Zimmerman and William Wong
 
 [Live Demo](https://petful-client.dc5will.now.sh/)
 
-[Client Repo](#)https://github.com/dc5will/DSA-Petful-Client-William
+[Client Repo](https://github.com/dc5will/DSA-Petful-Client-William)
 
-[Server Repo](#)https://github.com/dc5will/DSA-Petful-Server-William
+[Server Repo](https://github.com/dc5will/DSA-Petful-Server-William)
+
+[Heroku Server](https://lit-headland-28029.herokuapp.com/)
 
 ## Summary
 
